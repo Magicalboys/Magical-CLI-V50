@@ -32,10 +32,10 @@ program
       .version(`magical-cli ${require("../package.json").version}`)
 
       // cli 名称
-      .name("magical-cli")
+      .name("Hello!")
 
       // --help 第一行提示
-      .usage(`Hello Dear!`);
+      .usage(`I am a magical cli`);
 
 // 配置 create 命令
 
@@ -48,25 +48,31 @@ program
         require("../lib/create.js")(projectName, cmd);
       });
 // 配置 config 命令
-program
-      .command("config [value]") // config 命令
-      .description("inspect and modify the config")
-      .option("-g, --get <key>", "get value by key")
-      .option("-s, --set <key> <value>", "set option[key] is value")
-      .option("-d, --delete <key>", "delete option by key")
-      .action((value, keys) => {
-        // value 可以取到 [value] 值，keys会获取到命令参数
-        console.log(value, keys);
-      });
+// program
+//       .command("config [value]") // config 命令
+//       .description("inspect and modify the config")
+//       .option("-g, --get <key>", "get value by key")
+//       .option("-s, --set <key> <value>", "set option[key] is value")
+//       .option("-d, --delete <key>", "delete option by key")
+//       .action((value, keys) => {
+//         // value 可以取到 [value] 值，keys会获取到命令参数
+//         console.log(value, keys);
+//       });
 
 // 监听 --help 指令
 program.on("--help", function () {
   // 前后两个空行调整格式，更舒适
   console.log();
   console.log(
-    `Run ${chalk.cyan(
-      "magical <command> --help"
-    )} for detailed usage of given command.`
+    `For example:\n  ${chalk.cyan(
+      "mg     "
+    )}  ${chalk.green(
+      "create app"
+    )}\n  ${chalk.cyan(
+      "magical"
+    )}  ${chalk.green(
+      "create app"
+    )}`
   );
   console.log();
 });
