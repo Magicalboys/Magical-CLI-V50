@@ -6,6 +6,7 @@
   "bin": {
     "magical": "./bin/enter.js",
     "magical-cli": "./bin/enter.js",
+    "mg": "./bin/enter.js",
     "mg-cli": "./bin/enter.js"
   },
   "scripts": {
