@@ -11,7 +11,6 @@
 ## 选择模板 
   
 * election-template
-* react-ts-template
 
 
 
