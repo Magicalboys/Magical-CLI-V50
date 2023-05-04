@@ -8,7 +8,7 @@
 
 ## 常用命令
 
-* `magcial create <project name>`: 创建项目
+* `mg / magcial create <project name>`: 创建项目
   
 * For example： 
 
