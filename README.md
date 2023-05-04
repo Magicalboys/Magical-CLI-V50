@@ -1,5 +1,7 @@
 # magical-cli
 
+👉模板仓库地址：[magical-cli-v50](https://github.com/orgs/Magical-cli-v-1/repositories)
+
 ## 全局安装
 
 `npm i -g magical-cli-v50`
@@ -14,9 +16,9 @@
   
   * `magcial create app`
 
-## 选择模板 
+## 选择模板
   
-# `election-template`
+# [`election-template`](https://github.com/Magical-cli-v-1/electron-template-v50)
 
 ## 傻瓜式配置，直接将你的 web 页面变成 PC 端应用 🤺
 
