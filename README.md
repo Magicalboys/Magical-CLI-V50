@@ -18,15 +18,15 @@
 
 ## 选择模板
   
-# [`election-template`](https://github.com/Magical-cli-v-1/electron-template-v50)
+## [`election-template`](https://github.com/Magical-cli-v-1/electron-template-v50)
 
-## 傻瓜式配置，直接将你的 web 页面变成 PC 端应用 🤺
+### 傻瓜式配置，将你的 web 页面秒变 PC 端应用 🤺
 
 ### 配置
 
 * `cnpm install` ，注意，这里最好用 `cnpm`.
 
-* 在 `app/main/index.js` 文件夹找到 `http://localhost:3000/` 直接替换为你自己项目的 web页面 `URL`
+* 在 `app/main/index.js` 文件夹找到 `http://localhost:3000/` 直接替换为你自己项目的 web页面 `URL`.
   ```
   // 创建一个变量来保存主窗口实例
   let win;
@@ -83,7 +83,7 @@
 
 * 所以你需要在你的 web项目 里执行下列步骤：
   
-    * `socket.io-client`
+    * `npm install socket.io-client`
     
     * 与服务器建立连接,（8000 是服务器的端口号）
     
