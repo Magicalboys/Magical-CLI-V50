@@ -7,6 +7,12 @@
 ## 常用命令
 
 * `magcial create <project name>`: 创建项目
+  
+* for example： 
+
+  * `mg create app`
+  
+  * `magcial create app`
 
 ## 选择模板 
   
