@@ -1,6 +1,6 @@
-# magical-cli-v50
+# Magical-CLI-V50
 
-👉模板仓库地址：[magical-cli-v50](https://github.com/orgs/Magical-cli-v-1/repositories)
+**👉模板仓库地址：[magical-cli-v50](https://github.com/orgs/Magical-cli-v-1/repositories)**
 
 ## 全局安装
 
