@@ -8,7 +8,7 @@
 
 * `magcial create <project name>`: 创建项目
   
-* for example： 
+* For example： 
 
   * `mg create app`
   
