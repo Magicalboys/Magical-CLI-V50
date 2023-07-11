@@ -48,9 +48,7 @@
 
 ### 打包
 
-* `npm run make`
-
-* `exe` 文件 在打包出来的 `out\Magical-electron-template-win32-x64\Magical-electron-template.exe` 里面.
+* `npm run park`
 
 
 
